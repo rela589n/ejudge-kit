@@ -19,3 +19,4 @@ for problem in problems:
     print(executable)
     os.system(executable)
 
+# or use just `scp -r ejudge@198.43.26.28:/home/judges2/000123/problems/ ./`
