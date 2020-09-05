@@ -1,0 +1,4 @@
+userName: ejudge
+hostName: 123.45.67.89
+contestId: 123
+connection: '{user}@{host}:{sourcePath}'
