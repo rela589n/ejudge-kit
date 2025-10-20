@@ -1,4 +1,28 @@
 userName: ejudge
 hostName: 123.45.67.89
 contestId: 123
+paths:
+  source: /home/judges/{contest}/problems/{problem}/tests
+  destination: ./{problem}/
 connection: '{user}@{host}:{sourcePath}'
+command: 'scp -pr {connection} {destination}'
+problems:
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - G
+  - H
+  - I
+  - J
+  - K
+  - L
+  - M
+  - N
+  - O
+  - P
+  - Q
+  - R
+onlyNotFound: true
